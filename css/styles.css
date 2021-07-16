@@ -64,6 +64,11 @@ a {
   margin-bottom: 94px;
 }
 
+.index-header {
+  margin: 0;
+  border: none;
+}
+
 .nav-panel {
   display: flex;
   justify-content: space-between;
