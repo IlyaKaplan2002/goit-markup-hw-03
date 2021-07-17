@@ -209,7 +209,7 @@ a {
   display: flex;
 }
 
-.job-list li {
+.job-list li:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -287,7 +287,6 @@ a {
 /* Cards */
 .cards-list {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -330,10 +329,6 @@ a {
 
 .footer {
   background-color: #2f303a;
-}
-
-.container.cont-footer {
-  /* flex-direction: column; */
   padding-top: 60px;
   padding-bottom: 60px;
 }
